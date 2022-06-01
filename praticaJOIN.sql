@@ -1,6 +1,6 @@
 /* QUESTÂO 1*/
 
-SELECT users.id,users.name,cities.name FROM users
+SELECT users.id,users.name,cities.name as city FROM users
 JOIN cities
 ON "cityId" = cities.id
 WHERE cities.name = 'Rio de Janeiro'
